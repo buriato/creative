@@ -9,8 +9,50 @@
 	<script src="libs/gsap/gsap.min.js" defer></script>
 	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
 	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/main.js" defer></script>
+
 </head>
 <body>
+
+	<div class="wrapper">
+		<div class="content">
+			<header class="hero-section">
+				<img data-lag=".5" data-speed='.6'class="hero" src="img/hero.png" alt="hero">
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">creative scroll</h1>
+					</div>
+				</div>
+			</header>
+			<div class="portfolio">
+				<div class="container">
+					<div class="gallery">
+						<div data-speed=".9" class="gallery__left">
+							<img class="gallery__item" src="img/work/1.jpg" alt="1">
+							<img class="gallery__item" src="img/work/2.jpg" alt="2">
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Creative floating scroll with amazing parallax</h2>
+								<p class="text-block__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptatibus?</p>
+							</div>
+							<img class="gallery__item" src="img/work/6.jpg" alt="6">
+		
+						</div>
+						<div data-speed="1.1" class="gallery__right">
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Creative floating scroll with amazing parallax</h2>
+								<p class="text-block__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptatibus?</p>
+							</div>
+							<img class="gallery__item" src="img/work/3.jpg" alt="3">
+							<img class="gallery__item" src="img/work/4.jpg" alt="4">
+							<img class="gallery__item" src="img/work/5.jpg" alt="5">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 </body>
 </html>
